@@ -1,9 +1,9 @@
-'use strict';
+'use strict'
 
-const a = 'str';
+const str = 'str'
 
 function square(x) {
-  return x * x;
+  return x * x
 }
 
-console.log(square(12));
+console.log(square(12))

@@ -1,6 +1,6 @@
 // @flow
 
-const a: number = 'str'
+const str: number = 'str'
 
 function square(x: number): number {
   return x * x

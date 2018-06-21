@@ -4,8 +4,9 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "babel src/ -d dist/",
-    "prepublish": "yarn run build"
+    "buildJS": "babel src/ -d dist/",
+    "buildCoffee": "coffee --compile --output dist/ src/",
+    "build": "yarn buildJS && yarn buildCoffee"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
